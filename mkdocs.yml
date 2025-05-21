@@ -1,11 +1,11 @@
-site_name: Otterdog configuration @ {{ org }}
-site_description: Otterdog configuration @ {{ org }}
+site_name: Otterdog configuration @ rust-sig
+site_description: Otterdog configuration @ rust-sig
 strict: false
 
-site_url: https://{{ org }}.github.io/.eclipsefdn/
+site_url: https://rust-sig.github.io/.eclipsefdn/
 
-repo_name: {{ org }}/.eclipsefdn
-repo_url: https://github.com/{{ org }}/.eclipsefdn/
+repo_name: rust-sig/.eclipsefdn
+repo_url: https://github.com/rust-sig/.eclipsefdn/
 
 docs_dir: ./docs
 site_dir: ./_site
@@ -34,7 +34,7 @@ nav:
 watch: []
 
 extra:
-  org_id: {{ org }}
+  org_id: rust-sig
 
 extra_css:
   - stylesheets/extra.css
