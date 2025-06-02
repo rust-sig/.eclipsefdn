@@ -11,7 +11,7 @@ orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
       description: "Working Group member affiliates",
       members+: [
         "SharonCorbett",
-        "plevasseur"
+        "PLeVasseur"
       ],
       notifications: false,
     },
