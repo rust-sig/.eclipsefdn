@@ -22,4 +22,9 @@ orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
       ],
     },
   ],
+  _repositories+:: [
+    orgs.newRepo('rust-sig') {
+      description: "Home of the Rust Special Interest Group (SIG) at the Eclipse Foundation.",
+    },
+  ],
 }
