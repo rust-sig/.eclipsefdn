@@ -21,7 +21,7 @@ orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
         "SharonCorbett",
         "chheis",
         "anci0809",
-        "sgallian"
+        "sara-gallian"
       ],
     },
   ],
