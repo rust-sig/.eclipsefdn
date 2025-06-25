@@ -20,7 +20,6 @@ orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
       members+: [
         "SharonCorbett",
         "chheis",
-        "ana0809",
         "sgallian"
       ],
     },
