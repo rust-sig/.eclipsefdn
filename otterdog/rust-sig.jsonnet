@@ -18,7 +18,10 @@ orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
     orgs.newTeam('team') {
       description: "Eclipse Foundation staff members supporting the RUST SIG.",
       members+: [
-        "SharonCorbett"
+        "SharonCorbett",
+        "chheis",
+        "anci0809",
+        "sara-gallian",
       ],
     },
   ],
