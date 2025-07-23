@@ -2,8 +2,6 @@ local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
 orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
   settings+: {
-    has_discussions: true,
-    discussion_source_repository: 'rust-sig/rust-sig',
     workflows+: {
       actions_can_approve_pull_request_reviews: false,
     },
@@ -30,7 +28,6 @@ orgs.newOrg('foundation-internal.sig.rust', 'rust-sig') {
   _repositories+:: [
     orgs.newRepo('rust-sig') {
       description: "Home of the Rust Special Interest Group (SIG) at the Eclipse Foundation.",
-      has_discussions: true,
     },
   ],
 }
